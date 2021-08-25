@@ -45,7 +45,7 @@ class App extends React.Component {
         {/* HEADER GOES OUTSIDE THE SWITCH SO IT IS ALWAYS RENDERED */}
         <Header/>
         <Switch>
-          <Route exact path='/' component={HomePage} />
+          <Route exact path='/jose-marcha' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
           <Route
             exact
