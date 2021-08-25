@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/jose-marcha/static/css/main.5c069d92.chunk.css",
+    "main.js": "/jose-marcha/static/js/main.6e5301a5.chunk.js",
+    "main.js.map": "/jose-marcha/static/js/main.6e5301a5.chunk.js.map",
+    "runtime-main.js": "/jose-marcha/static/js/runtime-main.7c681c15.js",
+    "runtime-main.js.map": "/jose-marcha/static/js/runtime-main.7c681c15.js.map",
+    "static/js/2.09291ffa.chunk.js": "/jose-marcha/static/js/2.09291ffa.chunk.js",
+    "static/js/2.09291ffa.chunk.js.map": "/jose-marcha/static/js/2.09291ffa.chunk.js.map",
+    "index.html": "/jose-marcha/index.html",
+    "static/css/main.5c069d92.chunk.css.map": "/jose-marcha/static/css/main.5c069d92.chunk.css.map",
+    "static/js/2.09291ffa.chunk.js.LICENSE.txt": "/jose-marcha/static/js/2.09291ffa.chunk.js.LICENSE.txt",
+    "static/media/crown.ed22126c.svg": "/jose-marcha/static/media/crown.ed22126c.svg",
+    "static/media/eventos.f8b573de.jpeg": "/jose-marcha/static/media/eventos.f8b573de.jpeg",
+    "static/media/jose-marcha-portada.79d56fba.jpeg": "/jose-marcha/static/media/jose-marcha-portada.79d56fba.jpeg",
+    "static/media/shopping-bag.e0cede96.svg": "/jose-marcha/static/media/shopping-bag.e0cede96.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c681c15.js",
+    "static/js/2.09291ffa.chunk.js",
+    "static/css/main.5c069d92.chunk.css",
+    "static/js/main.6e5301a5.chunk.js"
+  ]
+}
