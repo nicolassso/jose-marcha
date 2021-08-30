@@ -3,7 +3,6 @@ import React from 'react';
 import MenuItem from '../menu-item/menu-item.component';
 
 import './directory.styles.scss';
-import image1 from '../../assets/images/eventos.jpeg'
 import image2 from '../../assets/images/jose-marcha-portada.jpeg'
 
 
@@ -13,31 +12,6 @@ class Directory extends React.Component {
 
     this.state = {
       sections: [
-        // {
-        //   title: 'hats',
-        //   imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
-        //   id: 1,
-        //   linkUrl: 'hats'
-        // },
-        // {
-        //   title: 'jackets',
-        //   imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
-        //   id: 2,
-        //   linkUrl: 'jackets'
-        // },
-        // {
-        //   title: 'sneakers',
-        //   imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
-        //   id: 3,
-        //   linkUrl: 'sneakers'
-        // },
-        {
-          title: 'eventos',
-          imageUrl: image1,
-          size: 'large',
-          id: 4,
-          linkUrl: 'womens'
-        },
         {
           title: 'José Marchá',
           imageUrl: image2,

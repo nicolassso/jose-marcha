@@ -11,11 +11,18 @@ const Header = ({currentUser, hidden}) => (
 
     <div className="header">
         <Link className='logo-container' to='/jose-marcha'>
-            <Logo className='logo'></Logo>
+            {/* <Logo className='logo'></Logo> */}
+            <h1>José Marchá</h1>
         </Link>
         <div className="options">
             <Link className="option" to='/shop' >
                 OBRAS
+            </Link>
+            <Link className="option" to='/shop' >
+                ÚLTIMA COLECCIÓN
+            </Link>
+            <Link className="option" to='/shop' >
+                TIENDA
             </Link>
             <Link className="option" to='/shop' >
                 CONTACTO

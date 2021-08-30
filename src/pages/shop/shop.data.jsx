@@ -1,14 +1,19 @@
+import realismo1 from '../../assets/images/cuadros-jarrones/cuadro-jarron1.jpeg'
+import onirico1 from '../../assets/images/cuadros-mascarillas/cuadro-mascarilla11.jpeg'
+import abstracto1 from '../../assets/images/cuadros-mascarillas/cuadro-mascarilla17.jpeg'
+import marroqui1 from '../../assets/images/cuadros-mascarillas/cuadro-mascarilla10.jpeg'
+
 const SHOP_DATA = [
   {
     id: 1,
-    title: 'Hats',
-    routeName: 'hats',
+    title: 'Realismo',
+    routeName: 'realismo',
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-        price: 25
+        name: 'Jarrón flotante',
+        imageUrl: realismo1,
+        price: 1250
       },
       {
         id: 2,
@@ -62,14 +67,14 @@ const SHOP_DATA = [
   },
   {
     id: 2,
-    title: 'Sneakers',
-    routeName: 'sneakers',
+    title: 'Realismo Onírico',
+    routeName: 'realismoonirico',
     items: [
       {
         id: 10,
-        name: 'Adidas NMD',
-        imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-        price: 220
+        name: 'Llorona',
+        imageUrl: onirico1,
+        price: 700
       },
       {
         id: 11,
@@ -117,14 +122,14 @@ const SHOP_DATA = [
   },
   {
     id: 3,
-    title: 'Jackets',
-    routeName: 'jackets',
+    title: 'Abstracto',
+    routeName: 'Abstracto',
     items: [
       {
         id: 18,
-        name: 'Black Jean Shearling',
-        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-        price: 125
+        name: 'Paloma',
+        imageUrl: abstracto1,
+        price: 700
       },
       {
         id: 19,
@@ -154,14 +159,14 @@ const SHOP_DATA = [
   },
   {
     id: 4,
-    title: 'Womens',
-    routeName: 'womens',
+    title: 'Temas Marroquíes',
+    routeName: 'temasmarroquies',
     items: [
       {
         id: 23,
-        name: 'Blue Tanktop',
-        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
-        price: 25
+        name: 'Joven con alas',
+        imageUrl: marroqui1,
+        price: 700
       },
       {
         id: 24,
@@ -201,49 +206,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
-    id: 5,
-    title: 'Mens',
-    routeName: 'mens',
-    items: [
-      {
-        id: 30,
-        name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-        price: 325
-      },
-      {
-        id: 31,
-        name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-        price: 20
-      },
-      {
-        id: 32,
-        name: 'Black & White Longsleeve',
-        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-        price: 25
-      },
-      {
-        id: 33,
-        name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-        price: 25
-      },
-      {
-        id: 34,
-        name: 'Jean Long Sleeve',
-        imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-        price: 40
-      },
-      {
-        id: 35,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-        price: 25
-      }
-    ]
-  }
+  
 ];
 
 export default SHOP_DATA;
