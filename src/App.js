@@ -10,6 +10,8 @@ import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up
 import  {auth, createUserProfileDocument} from './firebase/firebase.utils'
 import {setCurrentUser} from './redux/user/user.actions';
 
+import UnderConstruct from './pages/under-construct/under-construct-page';
+
 
 class App extends React.Component {
 
@@ -47,6 +49,8 @@ class App extends React.Component {
         <Switch>
           <Route exact path='/jose-marcha' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
+          <Route exact path='/underConstruct' component={UnderConstruct} />
+
           <Route
             exact
             path='/signin' 

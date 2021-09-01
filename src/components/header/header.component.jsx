@@ -18,13 +18,13 @@ const Header = ({currentUser, hidden}) => (
             <Link className="option" to='/shop' >
                 OBRAS
             </Link>
-            <Link className="option" to='/shop' >
+            <Link className="option" to='/underConstruct' >
                 ÚLTIMA COLECCIÓN
             </Link>
-            <Link className="option" to='/shop' >
+            <Link className="option" to='/underConstruct' >
                 TIENDA
             </Link>
-            <Link className="option" to='/shop' >
+            <Link className="option" to='/underConstruct' >
                 CONTACTO
             </Link>
             {
