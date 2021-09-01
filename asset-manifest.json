@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/jose-marcha/static/css/main.f6a44fa3.chunk.css",
-    "main.js": "/jose-marcha/static/js/main.993153da.chunk.js",
-    "main.js.map": "/jose-marcha/static/js/main.993153da.chunk.js.map",
+    "main.css": "/jose-marcha/static/css/main.bd9ec5f4.chunk.css",
+    "main.js": "/jose-marcha/static/js/main.c90ef106.chunk.js",
+    "main.js.map": "/jose-marcha/static/js/main.c90ef106.chunk.js.map",
     "runtime-main.js": "/jose-marcha/static/js/runtime-main.7c681c15.js",
     "runtime-main.js.map": "/jose-marcha/static/js/runtime-main.7c681c15.js.map",
-    "static/js/2.41be4240.chunk.js": "/jose-marcha/static/js/2.41be4240.chunk.js",
-    "static/js/2.41be4240.chunk.js.map": "/jose-marcha/static/js/2.41be4240.chunk.js.map",
+    "static/js/2.424d0381.chunk.js": "/jose-marcha/static/js/2.424d0381.chunk.js",
+    "static/js/2.424d0381.chunk.js.map": "/jose-marcha/static/js/2.424d0381.chunk.js.map",
     "index.html": "/jose-marcha/index.html",
-    "static/css/main.f6a44fa3.chunk.css.map": "/jose-marcha/static/css/main.f6a44fa3.chunk.css.map",
-    "static/js/2.41be4240.chunk.js.LICENSE.txt": "/jose-marcha/static/js/2.41be4240.chunk.js.LICENSE.txt",
+    "static/css/main.bd9ec5f4.chunk.css.map": "/jose-marcha/static/css/main.bd9ec5f4.chunk.css.map",
+    "static/js/2.424d0381.chunk.js.LICENSE.txt": "/jose-marcha/static/js/2.424d0381.chunk.js.LICENSE.txt",
     "static/media/crown.ed22126c.svg": "/jose-marcha/static/media/crown.ed22126c.svg",
     "static/media/cuadro-jarron1.8ef4b17a.jpeg": "/jose-marcha/static/media/cuadro-jarron1.8ef4b17a.jpeg",
-    "static/media/cuadro-mascarilla10.61d5f893.jpeg": "/jose-marcha/static/media/cuadro-mascarilla10.61d5f893.jpeg",
+    "static/media/cuadro-marroqui1.0a984bc0.jpeg": "/jose-marcha/static/media/cuadro-marroqui1.0a984bc0.jpeg",
     "static/media/cuadro-mascarilla11.740ac46a.jpeg": "/jose-marcha/static/media/cuadro-mascarilla11.740ac46a.jpeg",
     "static/media/cuadro-mascarilla17.35aeb7e3.jpeg": "/jose-marcha/static/media/cuadro-mascarilla17.35aeb7e3.jpeg",
     "static/media/jose-marcha-portada.79d56fba.jpeg": "/jose-marcha/static/media/jose-marcha-portada.79d56fba.jpeg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7c681c15.js",
-    "static/js/2.41be4240.chunk.js",
-    "static/css/main.f6a44fa3.chunk.css",
-    "static/js/main.993153da.chunk.js"
+    "static/js/2.424d0381.chunk.js",
+    "static/css/main.bd9ec5f4.chunk.css",
+    "static/js/main.c90ef106.chunk.js"
   ]
 }
