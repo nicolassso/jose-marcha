@@ -1,0 +1,18 @@
+.colecciones-item {
+    width: 100%;
+    display: block;
+    flex-direction: column;
+    height: fit-content;
+    position: relative;
+    
+    .colecciones-body{
+      width: 100%;
+      .city{
+        display: block;
+      }
+      .year{
+        display: block;
+        margin-bottom: 20px;
+      }
+    }
+  }
