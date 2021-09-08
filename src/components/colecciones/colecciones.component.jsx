@@ -1,3 +1,6 @@
+//ESTE COMPONENTE ES PARA LOS COLECCIONISTAS, MUSEOS Y EXPOSICIONES
+//ES MUY PARECIDO AL COMPONENTE DE LAS COLECCIONES
+
 import React from 'react'
 import './colecciones.styles.scss'
 import ColeccionItem from '../colecciones.items/colecciones.items.component';
