@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import './App.css';
@@ -10,24 +10,41 @@ import Header from './components/header/header.component';
 
 import UnderConstruct from './pages/under-construct/under-construct-page';
 
+import apiCall from './components/api/api.component.jsx'
 
-class App extends React.Component {
+
+const App = () => {
+
+  const [cuadros, setCuadros] = useState([])
+
+//CALLING THE API TO GET THE PAINTINGS
+  useEffect(() => {
+    const fetchData = async() => {
+      await apiCall.getData()
+      .then(
+        res => setCuadros(res.data)
+      )
+      .catch((err) => {
+        console.log(err)
+      })
+    }
+    fetchData()
+    console.log(cuadros)
+  }, [])
 
 
-  render(){
     return (
       <div>
-        {/* HEADER GOES OUTSIDE THE SWITCH SO IT IS ALWAYS RENDERED */}
         <Header/>
         <Switch>
           <Route exact path='/jose-marcha' component={HomePage} />
           <Route path='/shop' component={ShopPage} />
           <Route exact path='/ultimaColeccion' component={UltimaColeccionPage} />
-          <Route exact path='/underConstruct' component={UnderConstruct} />
+          <Route exact path='/underConstruct' component={() => <UnderConstruct cuadros={cuadros} />} />
         </Switch>
       </div>
     );
-  }
+  
   
 }
 

@@ -1,36 +1,32 @@
-import React, { useEffect, useState } from 'react'
-import axios from 'axios'
+import React from 'react'
 
 import './under-construct-page.styles.scss'
 
 
-
-const UnderConstruct = () => {
-
-
-    //getting data from MySQL !! it is working omg
-
-    const [cuadros, setCuadros] = useState([])
-
-    const getDataFromApi = async () => {
-        try {
-            const res = await axios.get("http://localhost:3001/api/cuadros")
-            setCuadros(res.data)
-        } catch (error) {
-            console.log(error)
-        }
-    }
-
-    useEffect(() => {
-        getDataFromApi()    
-    }, [])
-    console.log(cuadros)
-
-    
-
+const UnderConstruct = ({cuadros}) => {
+    console.log(cuadros.map(cuadro=>cuadro.image))
     return(
     <div className="under-construct">
         <span className="text"><p className="dot-typing">...</p></span>
+        {
+        cuadros.map(cuadro => {
+            return(
+                <div key={cuadro.id} style={{
+                    margin: '20px',
+                    textAlign: 'center'
+                }}>
+                    <h1>{cuadro.name}</h1>
+                    <h2>{cuadro.author}</h2>
+                    <h3>{cuadro.collection}</h3>
+                    <h4>{cuadro.description}</h4>
+                    <h3>{cuadro.price}</h3>
+                    <img src={cuadro.image} alt="" width={"180px"}></img>
+                </div>
+
+                    )
+                }
+            )
+        }
     </div>
     )
 }
