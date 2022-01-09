@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/jose-marcha/static/css/main.1caf36d2.chunk.css",
-    "main.js": "/jose-marcha/static/js/main.d80d47c3.chunk.js",
-    "main.js.map": "/jose-marcha/static/js/main.d80d47c3.chunk.js.map",
+    "main.css": "/jose-marcha/static/css/main.341122f8.chunk.css",
+    "main.js": "/jose-marcha/static/js/main.76fadf47.chunk.js",
+    "main.js.map": "/jose-marcha/static/js/main.76fadf47.chunk.js.map",
     "runtime-main.js": "/jose-marcha/static/js/runtime-main.7c681c15.js",
     "runtime-main.js.map": "/jose-marcha/static/js/runtime-main.7c681c15.js.map",
     "static/js/2.3e2f9c16.chunk.js": "/jose-marcha/static/js/2.3e2f9c16.chunk.js",
     "static/js/2.3e2f9c16.chunk.js.map": "/jose-marcha/static/js/2.3e2f9c16.chunk.js.map",
     "index.html": "/jose-marcha/index.html",
-    "static/css/main.1caf36d2.chunk.css.map": "/jose-marcha/static/css/main.1caf36d2.chunk.css.map",
+    "static/css/main.341122f8.chunk.css.map": "/jose-marcha/static/css/main.341122f8.chunk.css.map",
     "static/js/2.3e2f9c16.chunk.js.LICENSE.txt": "/jose-marcha/static/js/2.3e2f9c16.chunk.js.LICENSE.txt",
     "static/media/abstracto-gota-3.2bd1bbfb.jpeg": "/jose-marcha/static/media/abstracto-gota-3.2bd1bbfb.jpeg",
     "static/media/bombilla.2e7ba252.jpeg": "/jose-marcha/static/media/bombilla.2e7ba252.jpeg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.7c681c15.js",
     "static/js/2.3e2f9c16.chunk.js",
-    "static/css/main.1caf36d2.chunk.css",
-    "static/js/main.d80d47c3.chunk.js"
+    "static/css/main.341122f8.chunk.css",
+    "static/js/main.76fadf47.chunk.js"
   ]
 }
