@@ -1,6 +1,6 @@
-import onirico1 from '../../assets/images/cuadros-jarrones/cuadro-jarron1.jpeg'
-import realismo1 from '../../assets/images/cuadros-mascarillas/cuadro-mascarilla11.jpeg'
-import abstracto1 from '../../assets/images/cuadros-abstractos/abstracto1.jpeg'
+import onirico1 from '../../assets/images/realismo-onirico/botella-rota-2.jpeg'
+import realismo1 from '../../assets/images/realismo/bombilla.jpeg'
+import abstracto1 from '../../assets/images/cuadros-abstractos/abstracto-gota-3.jpeg'
 import marroqui1 from '../../assets/images/cuadros-marroquies/cuadro-marroqui1.jpeg'
 
 
@@ -12,7 +12,7 @@ const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: 'Llorona',
+        name: 'Mascarilla Gioconda',
         imageUrl: realismo1,
         price: 700
       }
@@ -25,7 +25,7 @@ const SHOP_DATA = [
     items: [
       {
         id: 2,
-        name: 'Jarrón flotante',
+        name: 'Botella Rota',
         imageUrl: onirico1,
         price: 1250
       }
@@ -38,7 +38,7 @@ const SHOP_DATA = [
     items: [
       {
         id: 3,
-        name: 'Explosión',
+        name: 'Gota de Lava',
         imageUrl: abstracto1,
         price: 900
       }
@@ -51,7 +51,7 @@ const SHOP_DATA = [
     items: [
       {
         id: 4,
-        name: 'Mujeres marroquíes',
+        name: 'Mujeres Marroquíes',
         imageUrl: marroqui1,
         price: 950
       }

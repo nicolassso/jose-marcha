@@ -1,6 +1,6 @@
-import mascarilla1 from '../../assets/images/cuadros-mascarillas/cuadro-mascarilla1.jpeg'
+import mascarilla1 from '../../assets/images/cuadros-mascarillas/mascarilla-hombre-saltando-2.jpeg'
 import mascarilla3 from '../../assets/images/cuadros-mascarillas/cuadro-mascarilla12.jpeg'
-import mascarilla4 from '../../assets/images/cuadros-mascarillas/cuadro-mascarilla10.jpeg'
+// import mascarilla4 from '../../assets/images/cuadros-mascarillas/cuadro-mascarilla10.jpeg'
 
 
 const ULTIMA_COLECCION_DATA = [

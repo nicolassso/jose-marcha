@@ -9,11 +9,11 @@ const UnderConstruct = ({cuadros}) => {
     return(
     <div className="under-construct">
         <span className="text"><p className="dot-typing">...</p></span>
-        <CloudinaryContext cloudName="dn2k6sthd">
+        {/* <CloudinaryContext cloudName="dn2k6sthd">
             <div>
-                <Image publicId="https://res.cloudinary.com/dn2k6sthd/image/upload/v1641471647/marcha/abstractos/abstracto-volcan-3_ycoesg.jpg" width="800" />
+                <Image publicId="https://res.cloudinary.com/dn2k6sthd/image/upload/v1641471639/marcha/abstractos/abstracto-volcan-2_hhaphg.jpg" width="800" />
             </div>
-        </CloudinaryContext>
+        </CloudinaryContext> */}
         {
         cuadros.map(cuadro => {
             return(

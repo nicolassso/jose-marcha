@@ -4,6 +4,7 @@ import COLECCIONES_DATA from './colecciones.data';
 import CollectionPreview from '../../components/collection-preview/collection-preview.component';
 import Colecciones from '../../components/colecciones/colecciones.component';
 
+
 class ShopPage extends React.Component {
     constructor(props){ 
         super(props);

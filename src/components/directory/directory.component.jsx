@@ -3,7 +3,7 @@ import React from 'react';
 import MenuItem from '../menu-item/menu-item.component';
 
 import './directory.styles.scss';
-import image2 from '../../assets/images/jose-marcha-portada.jpeg'
+import image2 from '../../assets/images/volcan-grande-4.jpeg'
 
 
 class Directory extends React.Component {
@@ -16,8 +16,7 @@ class Directory extends React.Component {
           title: 'José Marchá',
           imageUrl: image2,
           size: 'large',
-          id: 5,
-          linkUrl: 'mens'
+          id: 5
         }
       ]
     };

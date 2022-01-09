@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import { CloudinaryContext, Image } from 'cloudinary-react'
 
 import CustomButton from '../custom-button/custom-button.component';
 
