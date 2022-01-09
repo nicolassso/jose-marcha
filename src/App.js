@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import './App.css';
+import './App.scss';
 import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
 import UltimaColeccionPage from './pages/ultima-coleccion/ultima-coleccion.page';

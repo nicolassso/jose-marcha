@@ -1,0 +1,35 @@
+:root{
+  --white: #e2e2e2;
+  // --black: #281900;
+  --black: #0a0a09;
+  --orange: #ffd328;
+  --yellow: #ffff67;
+  --grey: #7a7672;
+}
+
+body{
+    font-family: 'Open Sans Condensed';
+    padding: 20px 60px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+    ::-webkit-scrollbar{
+        background-color: var(--grey);
+    
+      }
+      ::-webkit-scrollbar-thumb{
+        background-color: var(--black);
+        border: solid var(--grey) .5px;
+      }
+}
