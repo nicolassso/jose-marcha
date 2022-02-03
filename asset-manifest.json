@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/jose-marcha/static/css/main.341122f8.chunk.css",
-    "main.js": "/jose-marcha/static/js/main.76fadf47.chunk.js",
-    "main.js.map": "/jose-marcha/static/js/main.76fadf47.chunk.js.map",
+    "main.css": "/jose-marcha/static/css/main.3f6b42c9.chunk.css",
+    "main.js": "/jose-marcha/static/js/main.a7e4b0ba.chunk.js",
+    "main.js.map": "/jose-marcha/static/js/main.a7e4b0ba.chunk.js.map",
     "runtime-main.js": "/jose-marcha/static/js/runtime-main.7c681c15.js",
     "runtime-main.js.map": "/jose-marcha/static/js/runtime-main.7c681c15.js.map",
-    "static/js/2.3e2f9c16.chunk.js": "/jose-marcha/static/js/2.3e2f9c16.chunk.js",
-    "static/js/2.3e2f9c16.chunk.js.map": "/jose-marcha/static/js/2.3e2f9c16.chunk.js.map",
+    "static/js/2.beb35003.chunk.js": "/jose-marcha/static/js/2.beb35003.chunk.js",
+    "static/js/2.beb35003.chunk.js.map": "/jose-marcha/static/js/2.beb35003.chunk.js.map",
     "index.html": "/jose-marcha/index.html",
-    "static/css/main.341122f8.chunk.css.map": "/jose-marcha/static/css/main.341122f8.chunk.css.map",
-    "static/js/2.3e2f9c16.chunk.js.LICENSE.txt": "/jose-marcha/static/js/2.3e2f9c16.chunk.js.LICENSE.txt",
+    "static/css/main.3f6b42c9.chunk.css.map": "/jose-marcha/static/css/main.3f6b42c9.chunk.css.map",
+    "static/js/2.beb35003.chunk.js.LICENSE.txt": "/jose-marcha/static/js/2.beb35003.chunk.js.LICENSE.txt",
     "static/media/abstracto-gota-3.2bd1bbfb.jpeg": "/jose-marcha/static/media/abstracto-gota-3.2bd1bbfb.jpeg",
-    "static/media/bombilla.2e7ba252.jpeg": "/jose-marcha/static/media/bombilla.2e7ba252.jpeg",
     "static/media/botella-rota-2.906d88f3.jpeg": "/jose-marcha/static/media/botella-rota-2.906d88f3.jpeg",
-    "static/media/cuadro-marroqui1.0a984bc0.jpeg": "/jose-marcha/static/media/cuadro-marroqui1.0a984bc0.jpeg",
-    "static/media/cuadro-mascarilla12.d64ce7a2.jpeg": "/jose-marcha/static/media/cuadro-mascarilla12.d64ce7a2.jpeg",
+    "static/media/incienso-y-ascuas.8172c2f8.jpg": "/jose-marcha/static/media/incienso-y-ascuas.8172c2f8.jpg",
     "static/media/mascarilla-hombre-saltando-2.5b35ce99.jpeg": "/jose-marcha/static/media/mascarilla-hombre-saltando-2.5b35ce99.jpeg",
+    "static/media/ninha-pastora.4dd1c42a.jpg": "/jose-marcha/static/media/ninha-pastora.4dd1c42a.jpg",
+    "static/media/retrato-familiar.85e7439c.jpg": "/jose-marcha/static/media/retrato-familiar.85e7439c.jpg",
     "static/media/volcan-grande-4.23d440e2.jpeg": "/jose-marcha/static/media/volcan-grande-4.23d440e2.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.7c681c15.js",
-    "static/js/2.3e2f9c16.chunk.js",
-    "static/css/main.341122f8.chunk.css",
-    "static/js/main.76fadf47.chunk.js"
+    "static/js/2.beb35003.chunk.js",
+    "static/css/main.3f6b42c9.chunk.css",
+    "static/js/main.a7e4b0ba.chunk.js"
   ]
 }
